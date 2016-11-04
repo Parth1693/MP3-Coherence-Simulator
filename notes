@@ -1,0 +1,35 @@
+Steps:
+1.  Send request to L1
+L1 operation
+READ
+If L1 hit, update LRU. Update LRU in L2 as well. Done.
+If L1 miss,  forward the request to L2. Bring in the block. Done.
+WRITE
+If L1 hit, send write request to L2. To make sure block in L2 is in Modified state, send wirte request to L2. Done. 
+If L1 miss, send write request to L2 to make sure the block is in Modified state in L2 cache. Done. WT policy.
+
+L2 Operation
+Follows MESI protocol.
+	Back invalidation to L1 cache in two cases:
+	1. Victim block is evicted from L2.
+	2. L2 receives BusUpgr, BusRdX to invalidate a block in L2
+
+
+Return codes from L1 to access L2:
+1: Read miss
+2: Write hit
+3: Write miss
+
+Return codes from L2 cache:
+4: Issue BusRd
+5: Issue BusRdX
+6: Issue BusUpgr
+7: Issue backInvalidate
+
+L2updateLRU - 'l'
+PrWr - 'w'
+PrRd - 'r'
+BusRd - 'd'
+BusRdX - 'x'
+BusUpgrade - ‘u’
+Invalidate - 'i'

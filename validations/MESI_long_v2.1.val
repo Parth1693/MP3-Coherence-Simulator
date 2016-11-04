@@ -1,0 +1,99 @@
+===== Personal Information =====
+FirstName LastName (Change it to your own name)
+UnityID (Change it to your own UnityID)
+Section ECE/CSC (change it to your section: ECE/CSC 001 or 601)
+===== 506 SMP Simulator configuration =====
+L1_SIZE:              4096
+L2_SIZE:              8192
+L1_ASSOC:             4
+L2_ASSOC:             8
+BLOCKSIZE:            64
+TRACE FILE:           canneal.04t.longTrace
+============ Simulation results L1 Cache (Processor 0) ============
+01. number of reads:                          112661
+02. number of read misses:                    11836
+03. number of writes:                         11942
+04. number of write misses:                   51
+05. total miss rate:                          9.54%
+06. number of back invalidations:             2275
+07. number of fills:                          11836
+08. number of evictions:                      9501
+============ Simulation results L2 Cache (Processor 0) ============
+01. number of reads:                          11836
+02. number of read misses:                    9599
+03. number of writes:                         11942
+04. number of write misses:                   39
+05. total miss rate:                          40.53%
+06. number of writebacks:                     969
+07. number of cache-to-cache transfers:       7152
+08. number of memory transactions:            3455
+09. number of interventions:                  1923
+10. number of invalidations:                  2004
+11. number of flushes:                        63
+12. number of evictions:                      7510
+============ Simulation results L1 Cache (Processor 1) ============
+01. number of reads:                          110830
+02. number of read misses:                    11691
+03. number of writes:                         11710
+04. number of write misses:                   50
+05. total miss rate:                          9.58%
+06. number of back invalidations:             2282
+07. number of fills:                          11691
+08. number of evictions:                      9350
+============ Simulation results L2 Cache (Processor 1) ============
+01. number of reads:                          11691
+02. number of read misses:                    9413
+03. number of writes:                         11710
+04. number of write misses:                   41
+05. total miss rate:                          40.40%
+06. number of writebacks:                     933
+07. number of cache-to-cache transfers:       7075
+08. number of memory transactions:            3312
+09. number of interventions:                  1868
+10. number of invalidations:                  2025
+11. number of flushes:                        61
+12. number of evictions:                      7306
+============ Simulation results L1 Cache (Processor 2) ============
+01. number of reads:                          114938
+02. number of read misses:                    11797
+03. number of writes:                         12383
+04. number of write misses:                   47
+05. total miss rate:                          9.30%
+06. number of back invalidations:             2238
+07. number of fills:                          11797
+08. number of evictions:                      9500
+============ Simulation results L2 Cache (Processor 2) ============
+01. number of reads:                          11797
+02. number of read misses:                    9397
+03. number of writes:                         12383
+04. number of write misses:                   42
+05. total miss rate:                          39.04%
+06. number of writebacks:                     958
+07. number of cache-to-cache transfers:       7088
+08. number of memory transactions:            3309
+09. number of interventions:                  1876
+10. number of invalidations:                  1997
+11. number of flushes:                        65
+12. number of evictions:                      7319
+============ Simulation results L1 Cache (Processor 3) ============
+01. number of reads:                          113428
+02. number of read misses:                    11907
+03. number of writes:                         12108
+04. number of write misses:                   62
+05. total miss rate:                          9.53%
+06. number of back invalidations:             2235
+07. number of fills:                          11907
+08. number of evictions:                      9612
+============ Simulation results L2 Cache (Processor 3) ============
+01. number of reads:                          11907
+02. number of read misses:                    9481
+03. number of writes:                         12108
+04. number of write misses:                   39
+05. total miss rate:                          39.64%
+06. number of writebacks:                     944
+07. number of cache-to-cache transfers:       7106
+08. number of memory transactions:            3358
+09. number of interventions:                  1925
+10. number of invalidations:                  2009
+11. number of flushes:                        66
+12. number of evictions:                      7389
